@@ -1,0 +1,20 @@
+{
+  "name": "some-application-name",
+  "author": "Keet Sugathadasa",
+  "email": "email",
+  "license": "MIT",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "babel": "babel src/index.ts --out-file dist/bundle.js",
+    "eslint": "eslint src/index.ts",
+    "start": "webpack-dev-server --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "discord.js": "^14.8.0",
+    "dotenv": "^16.0.3",
+    "openai": "^3.2.1"
+  },
+  "devDependencies": {}
+}
